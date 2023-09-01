@@ -1,0 +1,136 @@
+
+/*---------------------------------------
+  Boton para subir
+-----------------------------------------*/
+.back-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 999;
+}
+/*---------------------------------------
+  estilo del boton conócenos
+-----------------------------------------*/
+.my-custom-button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-image: linear-gradient(135deg, #611FD1, #611FD1);
+}
+
+.my-custom-button:hover {
+  background-image: linear-gradient(135deg, #3E51EA, #611FD1);
+  color: #fff;
+  box-shadow: 0 0 5px #611FD1,
+              0 0 25px #611FD1,
+              0 0 50px #611FD1,
+              0 0 100px #611FD1;
+}
+
+.my-custom-button span {
+  position: absolute;
+  display: block;
+  background-image: linear-gradient(135deg, #611FD1, #611FD1);
+}
+
+.transparent-button {
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.transparent-button:hover {
+  background: transparent;
+  color: #03f40f;
+  box-shadow: 0 0 5px #611FD1,
+              0 0 25px #611FD1,
+              0 0 50px #611FD1,
+              0 0 100px #611FD1;
+}
+
+.animated-button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.animated-button .animation-bar {
+  position: absolute;
+  bottom: 2px;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #611FD1);
+  animation: btn-anim1 2s linear infinite;
+}
+
+.animated-button:hover {
+  background: transparent;
+  color: #611FD1;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%, 100% {
+    left: 100%;
+  }
+}
+/*---------------------------------------
+  responsive menu
+-----------------------------------------*/
+.wrap-menu-header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  transition: background-color 0.3s ease, height 0.3s ease;
+}
+
+.wrap_header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 120px;
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-fixed .wrap-menu-header {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  height: 60px; /* Ajusta la altura para el encabezado fijo */
+}
+
+@media screen and (max-width: 768px) {
+  .wrap-menu-header {
+    height: 60px; /* Ajusta la altura para dispositivos móviles */
+  }
+}
+
+/* Resto de tus estilos usando la fuente */

@@ -1,0 +1,104 @@
+/*---------------------------------------
+  Nueva fuente made tommy
+-----------------------------------------*/
+@font-face {
+  font-family: 'thim'; /* Nombre de la nueva fuente */
+  src: url('../fonts/made/thim.otf') format('truetype'); /* Ruta relativa al archivo de la nueva fuente */
+  /* Puedes agregar más formatos de fuente aquí para soporte cruzado */
+}
+
+
+/* Estilo de uso para la fuente "made" con degradado de colores más notorio */
+.thim {
+  font-family: 'thim';
+  color: white; /* Cambia el color del texto a blanco */
+}
+
+@font-face {
+  font-family: 'light'; /* Nombre de la nueva fuente */
+  src: url('../fonts/made/light.otf') format('truetype'); /* Ruta relativa al archivo de la nueva fuente */
+  /* Puedes agregar más formatos de fuente aquí para soporte cruzado */
+}
+
+
+/* Estilo de uso para la fuente "made" con degradado de colores más notorio */
+.light {
+  font-family: 'light';
+  color: white; /* Cambia el color del texto a blanco */
+}
+
+@font-face {
+  font-family: 'regular'; /* Nombre de la nueva fuente */
+  src: url('../fonts/made/regular.otf') format('truetype'); /* Ruta relativa al archivo de la nueva fuente */
+  /* Puedes agregar más formatos de fuente aquí para soporte cruzado */
+}
+
+
+/* Estilo de uso para la fuente "made" con degradado de colores más notorio */
+.regular {
+  font-family: 'regular';
+  background: linear-gradient(to right, #3E51EA, #6C23FF); /* Aplica el degradado de colores al fondo del texto */
+  -webkit-background-clip: text; /* Aplica el degradado solo al texto en navegadores webkit (Safari, Chrome) */
+  background-clip: text; /* Aplica el degradado solo al texto */
+  color: transparent; /* Hace que el color del texto sea transparente para que el degradado se muestre */
+}
+
+
+@font-face {
+  font-family: 'medium'; /* Nombre de la nueva fuente */
+  src: url('../fonts/made/medium.otf') format('truetype'); /* Ruta relativa al archivo de la nueva fuente */
+  /* Puedes agregar más formatos de fuente aquí para soporte cruzado */
+}
+
+
+/* Estilo de uso para la fuente "made" con degradado de colores más notorio */
+.medium {
+  font-family: 'medium';
+  color: white; /* Cambia el color del texto a blanco */
+}loca
+
+@font-face {
+  font-family: 'bold'; /* Nombre de la nueva fuente */
+  src: url('../fonts/made/bold.otf') format('truetype'); /* Ruta relativa al archivo de la nueva fuente */
+  /* Puedes agregar más formatos de fuente aquí para soporte cruzado */
+}
+
+
+/* Estilo de uso para la fuente "made" con degradado de colores más notorio */
+.bold {
+  font-family: 'bold';
+  color: white; /* Cambia el color del texto a blanco */
+}
+
+@font-face {
+  font-family: 'extrabold'; /* Nombre de la nueva fuente */
+  src: url('../fonts/made/extrabold.otf') format('truetype'); /* Ruta relativa al archivo de la nueva fuente */
+  /* Puedes agregar más formatos de fuente aquí para soporte cruzado */
+}
+
+
+/* Estilo de uso para la fuente "made" con degradado de colores más notorio */
+.extrabold {
+  font-family: 'extrabold';
+  color: white; /* Cambia el color del texto a blanco */
+}
+
+@font-face {
+  font-family: 'black'; /* Nombre de la nueva fuente */
+  src: url('../fonts/made/black.otf') format('truetype'); /* Ruta relativa al archivo de la nueva fuente */
+  /* Puedes agregar más formatos de fuente aquí para soporte cruzado */
+}
+
+
+/* Estilo de uso para la fuente "made" con degradado de colores más notorio */
+.black {
+  font-family: 'black';
+  background: linear-gradient(to right, #3E51EA, #6C23FF); /* Aplica el degradado de colores al fondo del texto */
+  -webkit-background-clip: text; /* Aplica el degradado solo al texto en navegadores webkit (Safari, Chrome) */
+  background-clip: text; /* Aplica el degradado solo al texto */
+  color: transparent; /* Hace que el color del texto sea transparente para que el degradado se muestre */
+}
+
+/*---------------------------------------
+  Nueva fuente made tommy contorno
+-----------------------------------------*/
