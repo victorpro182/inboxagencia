@@ -37,11 +37,9 @@
 /* Estilo de uso para la fuente "made" con degradado de colores más notorio */
 .regular {
   font-family: 'regular';
-  background: linear-gradient(to right, #3E51EA, #6C23FF); /* Aplica el degradado de colores al fondo del texto */
-  -webkit-background-clip: text; /* Aplica el degradado solo al texto en navegadores webkit (Safari, Chrome) */
-  background-clip: text; /* Aplica el degradado solo al texto */
-  color: transparent; /* Hace que el color del texto sea transparente para que el degradado se muestre */
+  color: white; /* Cambia el color del texto a blanco */
 }
+
 
 
 @font-face {

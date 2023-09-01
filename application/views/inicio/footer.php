@@ -3,10 +3,10 @@
   <div class="container">
       <div class="row">
           <div class="col-lg-6 col-12 d-flex align-items-center">
-              <img src="<?php echo base_url('assets/imagen/icono_1.png'); ?>" alt="Logo" class="me-3" width="55">
-              <h2 class="medium">InboxAgencia</h2>
-          </div>
+              <img src="<?php echo base_url('assets/imagen/iconoblanco.png'); ?>" alt="Logo" class="me-3" width="45">
+              <h2 class="regular">inbox</h2><h2 class="black">.agencia</h2>
 
+          </div>
       </div>
   </div>
 </div>
